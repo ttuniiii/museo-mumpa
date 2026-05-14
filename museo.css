@@ -51,7 +51,7 @@ nav a:hover{
 .hero{
   height:100vh;
 
-  background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1400&auto=format&fit=crop');
+  background-image: url("imagenes/Entrada.jpg");
 
   background-size:cover;
   background-position:center;
@@ -91,18 +91,26 @@ nav a:hover{
   line-height:1.6;
 }
 
-button{
+
+
+.boton{
   padding:15px 35px;
-  border:none;
   background:#6b8f71;
   color:white;
   font-size:16px;
   border-radius:8px;
+
   cursor:pointer;
   transition:0.3s;
+
+  text-decoration:none;
+  display:inline-block;
+
+  border:none;
+  outline:none;
 }
 
-button:hover{
+.boton:hover{
   background:#8a6846;
 }
 
